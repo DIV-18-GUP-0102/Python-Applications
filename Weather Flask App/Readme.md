@@ -4,7 +4,7 @@ This Flask application provides a simple RESTful API for retrieving weather fore
 
 ## Prerequisites
 
-1. Python 3.x
+1. Python 3.8
 2. Flask
 3. requests
 4. geopy

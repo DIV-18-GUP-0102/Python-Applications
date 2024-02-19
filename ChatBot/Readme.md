@@ -26,6 +26,10 @@ To use the chat bot, follow these steps:
 3. The bot processes user messages using the GPT-3.5 model from OpenAI and generates responses.
 4. The conversation history is displayed in the chat interface, showing both user and bot messages.
 
+### output
+
+![Chat Bot](outputC.png)
+
 ## Configuration
 
 ### Before running the chat bot, I set up my OpenAI API key in the .streamlit/secrets.toml file within my Streamlit application directory.

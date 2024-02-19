@@ -41,7 +41,7 @@ curl http://localhost:5000/city/London
     ]
 }
 ```
-![Weather Forecast](Weather Flask App\Readme.md.jpg)
+![Weather Forecast](Weather Flask App\outputW.png)
 
 ## Configuration
 

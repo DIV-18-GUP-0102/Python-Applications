@@ -29,6 +29,8 @@ The API will return a JSON response with weather forecast information for the sp
 ```bash
 curl http://localhost:5000/city/London
 ```
+
+### Output
 ```json
 {
     "sentences": [
@@ -39,6 +41,15 @@ curl http://localhost:5000/city/London
     ]
 }
 ```
+![Weather Forecast](Weather Flask App\Readme.md.jpg)
+
+## Configuration
+
+1. Set the environment variable in your terminal before starting the Flask app to prevent exposing API keys.
+``` bash
+set OPENWEATHERMAP_API_KEY="Your_API_Key" 
+```
+
 ## Built With
 1. Flask - Python web framework
 2. requests - HTTP library for making requests

@@ -1,8 +1,12 @@
 from flask import Flask, jsonify
 import requests
 from geopy.geocoders import Nominatim
+import os
 
 app = Flask(__name__)
+
+
+api_key = os.getenv('OPENWEATHERMAP_API_KEY')
 
 def get_weather_description(weather_id):
     # Mapping of weather IDs to their descriptions

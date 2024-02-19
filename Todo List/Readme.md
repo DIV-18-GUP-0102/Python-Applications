@@ -19,7 +19,7 @@ streamlit run todo.py
 
 3. Tasks will be displayed in a table format, showing the title, description, and time of creation.
 
-4. To delete a task, select it from the dropdown list under "Select task to delete" and click the corresponding button.
+4. Once a task is completed you can delete the task by selecting it from the dropdown list under "Select task to delete" and clicking the corresponding button.
 
 ## Features
 

@@ -5,9 +5,9 @@ This Flask application provides a simple RESTful API for retrieving weather fore
 ## Prerequisites
 
 1. Python 3.8
-2. Flask
-3. requests
-4. geopy
+2. Flask 3.0.2
+3. geopy 2.4.1
+4. requests
 
 
 ## Usage
@@ -16,9 +16,10 @@ This Flask application provides a simple RESTful API for retrieving weather fore
 python weatherApp.py
 ```
 2. Send a GET request to retrieve weather forecast data for a specific city:
+
 ```bash
 curl http://localhost:5000/city/{city_name}
-````
+```
 Replace {city_name} with the name of the city for which you want to retrieve the weather forecast.
 The API will return a JSON response with weather forecast information for the specified city, including temperature, weather condition, humidity, and wind speed.
 
@@ -30,7 +31,8 @@ The API will return a JSON response with weather forecast information for the sp
 curl http://localhost:5000/city/London
 ```
 
-### Output
+### For city_name = London
+
 ```json
 {
     "sentences": [
@@ -41,11 +43,13 @@ curl http://localhost:5000/city/London
     ]
 }
 ```
+### For city_name = Delhi
+
 ![Weather Forecast](outputW.png)
 
 ## Configuration
 
-1. Set the environment variable in your terminal before starting the Flask app to prevent exposing API keys.
+### Setting the API key
 ``` bash
 set OPENWEATHERMAP_API_KEY="Your_API_Key" 
 ```

@@ -32,14 +32,6 @@ To use the chat bot, follow these steps:
 
 ## Configuration
 
-### Before running the chat bot, I set up my OpenAI API key in the .streamlit/secrets.toml file within my Streamlit application directory.
-
-1. Create a .streamlit folder in your Streamlit application directory if it doesn't exist.
-2. Inside the .streamlit folder, create a secrets.toml file.
-3. Add the following content to the secrets.toml file:
-```bash
-OPENAI_API_KEY = "your_api_key"
-```
 ### Setting the API key
 
 ``` bash
